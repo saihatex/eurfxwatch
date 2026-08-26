@@ -1,0 +1,50 @@
+{
+    "cutoff_date": "2026-08-25",
+    "cutoff_time": "13:00",
+    "timezone": "Europe/Kyiv",
+    "user_trade": {
+        "side": "SHORT",
+        "entry_price": 1.16837,
+        "broker": "Forex.com"
+    },
+    "model_state": {
+        "date": "2026-08-25",
+        "eur_close": 1.16837,
+        "regime": {
+            "volatility": "LOW VOLATILITY",
+            "trend": "EUR BULLISH IMPULSE",
+            "x1_mom_pctl": 78.6,
+            "x2_vol_pctl": 19.7,
+            "us2y": 4.24,
+            "de2y": 2.79635,
+            "spread": 1.4437,
+            "x4_rates": 0.0341
+        },
+        "scores": {
+            "short_score": 1,
+            "long_score": 2,
+            "short_factors": [
+                "Rates Shift Mild USD-Supportive (X4 > 0)"
+            ],
+            "long_factors": [
+                "Bullish Momentum Continuation (50% <= X1 < 85%)"
+            ]
+        },
+        "distributions": {
+            "short": {
+                "expected_3d": -0.22,
+                "median_3d": -0.19,
+                "p_negative": 56.3
+            },
+            "long": {
+                "expected_3d": 0.06,
+                "median_3d": 0.07,
+                "p_positive": 53.6
+            }
+        },
+        "decision": {
+            "final_signal": "NO TRADE",
+            "confidence": "LOW"
+        }
+    }
+}

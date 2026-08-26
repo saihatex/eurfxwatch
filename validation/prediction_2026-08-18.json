@@ -1,0 +1,21 @@
+{
+    "cutoff_date": "2026-08-18",
+    "eurusd_close": 1.1582788228988647,
+    "5d_return_pct": 0.315,
+    "5d_percentile": 60.9,
+    "vol_3y_percentile": 13.0,
+    "us2y_rate": 4.19,
+    "de2y_rate": 2.7804608813,
+    "rate_spread": 1.4095,
+    "x4_spread_5d_change": -0.1018,
+    "flags": {
+        "first_trigger": false,
+        "high_volatility": false,
+        "extreme_momentum": false
+    },
+    "model_signal": "NO TRADE (Normal Regime)",
+    "expected_3d_return_pct": 0.0,
+    "median_3d_return_pct": 0.0,
+    "p_negative_pct": 50.0,
+    "p_positive_pct": 50.0
+}

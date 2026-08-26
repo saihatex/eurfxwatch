@@ -1,0 +1,77 @@
+{
+  "is_period": {
+    "start": "2023-11-08",
+    "end": "2025-10-21",
+    "n_days": 510
+  },
+  "oos_period": {
+    "start": "2025-10-22",
+    "end": "2026-08-25",
+    "n_days": 220
+  },
+  "feature_stats": {
+    "judas_swing": {
+      "mean": 0.5068,
+      "std": 0.5003
+    },
+    "cot_topping": {
+      "mean": 0.1233,
+      "std": 0.329
+    },
+    "bear_fvg_below": {
+      "mean": 0.9699,
+      "std": 0.1711
+    },
+    "vol_low": {
+      "mean": 0.4096,
+      "std": 0.4921
+    }
+  },
+  "target_base_rate": 0.5082,
+  "coefficients": {
+    "const": -0.541384,
+    "judas_swing": -0.169983,
+    "cot_topping": 0.407449,
+    "bear_fvg_below": 0.579735,
+    "vol_low": 0.071269
+  },
+  "p_values": {
+    "const": 0.232639,
+    "judas_swing": 0.340588,
+    "cot_topping": 0.124416,
+    "bear_fvg_below": 0.205684,
+    "vol_low": 0.719115
+  },
+  "oos_metrics": {
+    "brier_score_model": 0.25005,
+    "brier_score_naive_half": 0.25,
+    "brier_skill_score": -0.0002,
+    "auc_roc": 0.5577
+  },
+  "correlation_matrix": {
+    "judas_swing": {
+      "judas_swing": 1.0,
+      "cot_topping": -0.0301,
+      "bear_fvg_below": 0.0184,
+      "vol_low": -0.0142
+    },
+    "cot_topping": {
+      "judas_swing": -0.0301,
+      "cot_topping": 1.0,
+      "bear_fvg_below": -0.007,
+      "vol_low": 0.0012
+    },
+    "bear_fvg_below": {
+      "judas_swing": 0.0184,
+      "cot_topping": -0.007,
+      "bear_fvg_below": 1.0,
+      "vol_low": 0.1468
+    },
+    "vol_low": {
+      "judas_swing": -0.0142,
+      "cot_topping": 0.0012,
+      "bear_fvg_below": 0.1468,
+      "vol_low": 1.0
+    }
+  }
+}

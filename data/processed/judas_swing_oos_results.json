@@ -1,0 +1,48 @@
+{
+  "is_period": {
+    "start": "2023-11-08",
+    "end": "2025-10-22",
+    "n_bars": 12081
+  },
+  "oos_period": {
+    "start": "2025-10-22",
+    "end": "2026-08-25",
+    "n_bars": 5178
+  },
+  "sweep_events_total": 105,
+  "horizons": {
+    "+1H": {
+      "N": 105,
+      "mean_ret": 0.000264,
+      "std": 0.00122,
+      "t_stat": 2.2134,
+      "p_value": 0.0291,
+      "win_rate_bear_pct": 40.0
+    },
+    "+2H": {
+      "N": 105,
+      "mean_ret": 0.000317,
+      "std": 0.001606,
+      "t_stat": 2.0202,
+      "p_value": 0.0459,
+      "win_rate_bear_pct": 43.81
+    },
+    "+4H": {
+      "N": 104,
+      "mean_ret": 9.8e-05,
+      "std": 0.001858,
+      "t_stat": 0.5367,
+      "p_value": 0.5926,
+      "win_rate_bear_pct": 49.04
+    },
+    "+8H": {
+      "N": 104,
+      "mean_ret": 5.1e-05,
+      "std": 0.002513,
+      "t_stat": 0.2074,
+      "p_value": 0.8361,
+      "win_rate_bear_pct": 50.96
+    }
+  },
+  "verdict": "SIGNIFICANT \u2014 Judas Swing edge detected (p < 0.05)"
+}

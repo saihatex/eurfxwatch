@@ -1,0 +1,34 @@
+{
+  "sigma_daily": 0.003409,
+  "mu_intraday_judas_trade_space": -0.000181,
+  "lambda_decay": 0.0966,
+  "cot_signal_drift": {
+    "ACCUMULATION": {
+      "N": 197,
+      "mean_5d_ret": 0.011326,
+      "std_5d_ret": 0.005718
+    },
+    "CAPITULATION": {
+      "N": 179,
+      "mean_5d_ret": 0.011901,
+      "std_5d_ret": 0.004677
+    },
+    "NEUTRAL": {
+      "N": 193,
+      "mean_5d_ret": 0.008912,
+      "std_5d_ret": 0.008357
+    },
+    "PROFIT TAKING": {
+      "N": 118,
+      "mean_5d_ret": 0.012485,
+      "std_5d_ret": 0.003435
+    },
+    "TOPPING OUT": {
+      "N": 152,
+      "mean_5d_ret": 0.011451,
+      "std_5d_ret": 0.005875
+    }
+  },
+  "n_judas_swing_events": 370,
+  "note": "All parameters calibrated from historical 1H EURUSD data via MLE / empirical estimation"
+}
