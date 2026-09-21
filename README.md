@@ -12,3 +12,6 @@ Institutional quantitative surveillance and price action modeling engine for EUR
 ## License
 
 MIT
+
+
+<!-- Co-authored with notWWW3 -->
